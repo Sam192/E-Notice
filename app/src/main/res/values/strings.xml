@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">E-NOTICE BOARD</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="message_appear_here">Message appear here</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_file">Select File</string>
+    <string name="upload_file">Upload file</string>
+    <string name="no_item_selected">No Item Selected</string>
+    <string name="selected_file">Selected File</string>
+    <string name="VESIT">VESIT</string>
+    <string name="message_apprear_here">message appear here</string>
+    <string name="textview">TextView</string>
+    <string name="add_price">Add Price</string>
+    <string name="add_discription">Add Description</string>
+    <string name="post_the_image">Post the image</string>
+
+    <string name="Price">Price</string>
+    <string name="Discription">Description</string>
+    <string name="check">Check Details</string>
+    <string name="enter_the_title_for_notice">Enter the title for notice</string>
+    <string name="add_discription_for_notice">Add Description For Notice</string>
+    <string name="add_notice">Add Notice</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_sell">sell</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="no_attachment_is_selected">No Attachment is Selected</string>
+    <string name="upload_events">Upload Events</string>
+</resources>

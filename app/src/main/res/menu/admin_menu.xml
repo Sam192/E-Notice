@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/admin_notice"
+        android:title="Upload Notice"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/admin_notes"
+        android:title="Upload Notes"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/admin_lost"
+        android:title="Upload Lost Item"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/admin_event"
+        android:title="Upload Event"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.test">
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/VESIT"
+        android:roundIcon="@mipmap/icon_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Example">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".Home" />
+        <activity android:name=".notes" />
+        <activity android:name=".sem1recyclerview" />
+        <activity android:name=".Upload_notesfile" />
+        <activity android:name=".upload_sellingImage" />
+        <activity android:name=".sellingRecyclerview" />
+        <activity android:name=".upload_Notice" />
+        <activity android:name=".upload_lost_found" />
+        <activity android:name=".upload_donate_images" />
+        <activity
+            android:name=".sell"
+            android:label="@string/title_activity_sell"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".notice_recyclerview" />
+        <activity android:name=".notice_detail" />
+        <activity android:name=".lost_found" />
+        <activity android:name=".upload_maintanence" />
+        <activity android:name=".maitainance" />
+        <activity android:name=".maintaince_details" />
+        <activity android:name=".upload_event" />
+        <activity android:name=".event_recyclerview" />
+        <activity android:name=".event_details" />
+        <activity android:name=".selling_swipeview" />
+
+        <service android:name=".FirebaseNotification">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".reset_password"></activity>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+    </application>
+
+</manifest>
