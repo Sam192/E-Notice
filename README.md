@@ -1,6 +1,7 @@
 # E-Notice
 An android based project with Firebase as back-end. Where user get Study Material, Notice, Lost &amp; Found, Maintenance, Sell &amp; Donate Books and get updates regarding College Events
-Our topic is "E-notice board". It will be android based project.
+
+"E-notice board"
 Modules are as follows: -
 
 1) Study material (e-books, notes, assignments and syllabus): -
@@ -29,6 +30,3 @@ Show updates for all events. Easy for event management to convey their message t
 
 9) Feedback: - 
 Giving feedback about college by the students. It may be helpful in changing our college from better to best. If we get feedback and work on it.
-
-Since we are planning to make it in android. It is more likely to come handy to users. New and innovative idea related to our day to day activity.
-Please reply your approval, so we can start working on it.
